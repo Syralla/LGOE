@@ -1,0 +1,333 @@
+.h2{
+	content: "";
+    display: inline-block;
+    width: 0px;
+    height: 2px;
+    background-color: #000;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+
+.h3{
+	content: "";
+    display: inline-block;
+    width: 0px;
+    height: 2px;
+    background-color: #000;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+
+
+.gallery-top h2:after {
+    content: "";
+    display: inline-block;
+    width: 0px;
+    height: 2px;
+    background-color: #000;
+    vertical-align: middle;
+    margin-left: 1%;
+}
+.own_head p{
+	font-size: 1em;
+    color: #999;
+    line-height: 2em;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+.own_head h2{
+	    font-size: 3em;
+    font-family: 'Montserrat', sans-serif;
+	color: #000;
+	text-align: center;
+	margin: 0 0 0.3em;
+
+}
+
+.container h3:after{
+	all: unset;
+}
+.container h2:after{
+	all: unset;
+}
+
+.own_head h3 {
+    font-size: 3em;
+    color: #000;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.own_head h3:after {
+    all: unset;
+}
+
+.footer-left h3:after ,.footer-right h3:after {
+	all: unset;
+}
+
+#landing-wrapper {
+  display: table;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://placehold.it/350x150');
+  background-position: center top;
+  height: 350px;
+  color: white;
+}
+.gallery-top {
+	padding: 6em 0;
+}
+.login label{
+    color: white;
+}
+
+.nav {
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+  background: #3a3a3a;
+  font-size: 16px;
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
+ 
+.nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav ul li {
+  position: relative;
+  float: left;
+  list-style: none;
+}
+ 
+.nav ul li:hover {
+  background: #4096ee;
+}
+ 
+.nav ul li a {
+    padding: 15px;
+}
+
+.nav ul li:hover > ul {
+  top: 100%;
+  left: 0;
+}
+
+.nav ul li.submenu > a:after {
+  position: relative;
+  float: right;
+  content: '';
+  margin-left: 10px;
+  margin-top: 5px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid transparent;
+}
+
+   
+
+   .nav-top .container 
+    
+
+     .nav-top .container #nav > a
+      {
+        display: none;
+      }
+
+     .nav-top .container #nav li
+      {
+        position: relative;
+        z-index: 1000000;
+      }
+       .nav-top .container #nav li a
+        {
+          color: #fff;
+          display: block;
+        }
+       .nav-top .container #nav li a:active
+        {
+          background-color: #c00 !important;
+        }
+
+     .nav-top .container #nav span:after
+      {
+        width: 0;
+        height: 0;
+        border: 0.313em solid transparent; /* 5 */
+        border-bottom: none;
+        border-top-color: #efa585;
+        content: '';
+        vertical-align: middle;
+        display: inline-block;
+        position: relative;
+        right: -0.313em; /* 5 */
+      }
+
+      /* first level */
+
+     .nav-top .container #nav > ul
+      {
+        height: 3.75em; /* 60 */
+        background-color: #e15a1f;
+      }
+       .nav-top .container #nav > ul > li
+        {
+          width: 25%;
+          height: 100%;
+          float: left;
+        }
+         .nav-top .container #nav > ul > li > a
+          {
+            height: 100%;
+            font-size: 1.5em; /* 24 */
+            line-height: 2.5em; /* 60 (24) */
+            text-align: center;
+          }
+           .nav-top .container #nav > ul > li:not( :last-child ) > a
+            {
+              border-right: 1px solid #cc470d;
+            }
+           .nav-top .container #nav > ul > li:hover > a,
+           .nav-top .container #nav > ul:not( :hover ) > li.active > a
+            {
+              background-color: #cc470d;
+            }
+
+
+        /* second level */
+
+       .nav-top .container #nav li ul
+        {
+          background-color: #cc470d;
+          display: none;
+          position: absolute;
+          top: 100%;
+        }
+         .nav-top .container #nav li:hover ul
+          {
+            display: block;
+            left: 0;
+            right: 0;
+          }
+           .nav-top .container #nav li:not( :first-child ):hover ul
+            {
+              left: -1px;
+            }
+           .nav-top .container #nav li ul a
+            {
+              font-size: 1.25em; /* 20 */
+              border-top: 1px solid #e15a1f;
+              padding: 0.75em; /* 15 (20) */
+            }
+             .nav-top .container #nav li ul li a:hover,
+             .nav-top .container #nav li ul:not( :hover ) li.active a
+              {
+                background-color: #e15a1f;
+              }
+
+
+    @media only screen and ( max-width: 62.5em ) /* 1000 */
+    {
+     .nav-top .container #nav
+      {
+        width: 100%;
+        position: static;
+        margin: 0;
+      }
+    }
+
+    @media only screen and ( max-width: 40em ) /* 640 */
+    {
+      html
+      {
+        font-size: 75%; /* 12 */
+      }
+
+     .nav-top .container #nav
+      {
+        position: relative;
+        top: auto;
+        left: auto;
+      }
+       .nav-top .container #nav > a
+        {
+          width: 3.125em; /* 50 */
+          height: 3.125em; /* 50 */
+          text-align: left;
+          text-indent: -9999px;
+          background-color: #e15a1f;
+          position: relative;
+        }
+         .nav-top .container #nav > a:before,
+         .nav-top .container #nav > a:after
+          {
+            position: absolute;
+            border: 2px solid #fff;
+            top: 35%;
+            left: 25%;
+            right: 25%;
+            content: '';
+          }
+         .nav-top .container #nav > a:after
+          {
+            top: 60%;
+          }
+
+       .nav-top .container #nav:not( :target ) > a:first-of-type,
+       .nav-top .container #nav:target > a:last-of-type
+        {
+          display: block;
+        }
+
+
+      /* first level */
+
+     .nav-top .container #nav > ul
+      {
+        height: auto;
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+       .nav-top .container #nav:target > ul
+        {
+          display: block;
+        }
+       .nav-top .container #nav > ul > li
+        {
+          width: 100%;
+          float: none;
+        }
+         .nav-top .container #nav > ul > li > a
+          {
+            height: auto;
+            text-align: left;
+            padding: 0 0.833em; /* 20 (24) */
+          }
+           .nav-top .container #nav > ul > li:not( :last-child ) > a
+            {
+              border-right: none;
+              border-bottom: 1px solid #cc470d;
+            }
+
+
+        /* second level */
+
+       .nav-top .container #nav li ul
+        {
+          position: static;
+          padding: 1.25em; /* 20 */
+          padding-top: 0;
+        }
+    }

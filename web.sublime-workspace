@@ -1,0 +1,735 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title>Leibniz-Gymnasium-Östringen</title>\n\t<link href=\"css/bootstrap.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\n\t<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->\n\t<script src=\"js/jquery.min.js\"></script>\n\t<!-- Custom Theme files -->\n\t<!--theme-style-->\n\t<link href=\"css/style.css\" rel=\"stylesheet\" type=\"text/css\" media=\"all\" />\t\n\t<!--//theme-style-->\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n\t<meta name=\"keywords\" content=\"Academic Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, \n\tSmartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design\" />\n\t<script type=\"application/x-javascript\"> addEventListener(\"load\", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>\n\t<!---->\n\t<script src=\"js/bootstrap.min.js\"></script>\n\t<link href='//fonts.googleapis.com/css?family=Catamaran:400,100,300,500,700,600,800,900' rel='stylesheet' type='text/css'>\n\t<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>\n</head>\n<body>\n\t<div class=\"header head1\">\n\t\t<div class=\"container\">\n\t\t\t<div class=\"head-top\">\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<a href=\"index.php\"><img src=\"images/bo.png\" alt=\"\" title=\"Academic\" style=\"width: 128px;height: 124px;\"></a>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"login\">\n\t\t\t\t\t<ul class=\"nav-login\">\n\t\t\t\t\t\t<li><a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal1\">Login</a></li>\n\t\t\t\t\t\t<li><a href=\"#\" data-toggle=\"modal\" data-target=\"#myModal2\">Registrierung</a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"clearfix\"></div>\n\t\t\t</div>\n\t\t</div>\n\t\t<!-- login -->\n\t\t<div class=\"modal fade\" id=\"myModal1\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\">\n\t\t\t<div class=\"modal-dialog\" role=\"document\">\n\t\t\t\t<div class=\"modal-content modal-info\">\n\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"modal-body modal-spa\">\n\t\t\t\t\t\t<div class=\"login-grids\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"login-right\">\n\t\t\t\t\t\t\t\t<form action=\"#\" method=\"post\">\n\t\t\t\t\t\t\t\t\t<h3>Mit Account einloggen </h3>\n\t\t\t\t\t\t\t\t\t<input type=\"text\" value=\"Bitte Email-Adresse eingeben\" name=\" Email\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'Bitte Email-Adresse eingeben';}\" required=\"\">\t\n\t\t\t\t\t\t\t\t\t<input type=\"password\" value=\"Passwort\" name=\"Passwort\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'Passwort';}\" required=\"\">\t\n\t\t\t\t\t\t\t\t\t<h4><a href=\"#\">Passwort vergessen</a> / <a href=\"#\">Neues Passwort</a></h4>\n\t\t\t\t\t\t\t\t\t<div class=\"single-bottom\">\n\t\t\t\t\t\t\t\t\t\t<input type=\"checkbox\"  id=\"brand\" value=\"\">\n\t\t\t\t\t\t\t\t\t\t<label for=\"brand\"><span></span>Login-Daten speichern.</label>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t\t<input type=\"submit\" value=\"EINLOGGEN\" >\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<!-- //login -->\n\t\t<!-- signup -->\n\t\t<div class=\"modal fade\" id=\"myModal2\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"myModalLabel\">\n\t\t\t<div class=\"modal-dialog\" role=\"document\">\n\t\t\t\t<div class=\"modal-content modal-info\">\n\t\t\t\t\t<div class=\"modal-header\">\n\t\t\t\t\t\t<button type=\"button\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"modal-body modal-spa\">\n\t\t\t\t\t\t<div class=\"login-grids\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<div class=\"login-right\">\n\t\t\t\t\t\t\t\t<form action=\"#\" method=\"post\">\n\t\t\t\t\t\t\t\t\t<h3>Account erstellen </h3>\n\t\t\t\t\t\t\t\t\t<input type=\"text\" value=\"Name\" name=\"Name\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'Name';}\" required=\"\">\n\t\t\t\t\t\t\t\t\t<input type=\"text\" value=\"Email-Adresse\" name=\"Email-Adresse\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'Email-Adresse';}\" required=\"\">\t\n\t\t\t\t\t\t\t\t\t<input type=\"password\" value=\"Passwort\" name=\"Passwort\" onfocus=\"this.value = '';\" onblur=\"if (this.value == '') {this.value = 'Passwort';}\" required=\"\">\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<input type=\"submit\" value=\"ACCOUNT ERSTELLEN\" >\n\t\t\t\t\t\t\t\t</form>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t<!-- //signup -->\n\t\t\n\t\t<div class=\"nav-top\">\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"nav1\">\n\t\t\t\t\t<div class=\"navbar1\">\n\t\t\t\t\t\t<!-- Brand and toggle get grouped for better mobile display -->\n\t\t\t\t\t\t<div class=\"navbar-header\">\n\t\t\t\t\t\t\t<button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#bs-example-navbar-collapse-1\" >\n\t\t\t\t\t\t\t\t<span class=\"sr-only\">Toggle navigation</span>\n\t\t\t\t\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t\t\t\t</button>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<!-- Collect the nav links, forms, and other content for toggling -->\n\t\t\t\t\t\t<div class=\"collapse navbar-collapse\" id=\"bs-example-navbar-collapse-1\">\n\t\t\t\t\t\t\t<ul class=\"nav navbar-nav cl-effect-8\">\n\t\t\t\t\t\t\t\t<li ><a  href=\"index.php\">Home </a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"news.php\">News</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"about.php\">Über uns</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"calendar.php\">Kalendar</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"contact.php\">Kontakt</a></li>\n\t\t\t\t\t\t\t\t<li><a href=\"timetable.php\">Stundenplan</a></li>\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t<li><a href=\"typo.php\">Short Codes</a></li>\n\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t</div><!-- /.navbar-collapse -->\n\t\t\t\t\t</div>\n\t\t\t\t\t<!-- start search-->\n\t\t\t\t\t<ul class=\"social-ic\">\n\t\t\t\t\t\t<li><a href=\"#\"><i></i></a></li>\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"ic\"></i></a></li>\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"ic1\"></i></a></li>\n\t\t\t\t\t\t<li><a href=\"#\"><i class=\"ic2\"></i></a></li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t<div class=\"clearfix\"></div>\n\t\t\t\t</div> \n\t\t\t</div> \n\t\t</div> \n\t</div>\n</body>\n</html>",
+			"file": "Header_Navi.php",
+			"file_size": 6144,
+			"file_write_time": 131285225946831607,
+			"settings":
+			{
+				"buffer_size": 5962,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "calendar.php",
+			"settings":
+			{
+				"buffer_size": 120,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "timetable.php",
+			"settings":
+			{
+				"buffer_size": 121,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 6695,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "gallery.php",
+			"settings":
+			{
+				"buffer_size": 2339,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Footer.php",
+			"settings":
+			{
+				"buffer_size": 968,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "typo.php",
+			"settings":
+			{
+				"buffer_size": 19263,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "about.php",
+			"settings":
+			{
+				"buffer_size": 6281,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "contact.php",
+			"settings":
+			{
+				"buffer_size": 2095,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 141622,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 41335,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/swipebox.css",
+			"settings":
+			{
+				"buffer_size": 4104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/index.css",
+			"settings":
+			{
+				"buffer_size": 1835,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "News.php",
+			"settings":
+			{
+				"buffer_size": 6923,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/web/index.html",
+		"/C/Users/deu301997/Desktop/webster.html",
+		"/C/xampp/htdocs/Creative-bootstrap/index.html",
+		"/C/xampp/htdocs/web/typo.html",
+		"/C/xampp/htdocs/web/contact.html",
+		"/C/xampp/htdocs/web/gallery.html",
+		"/C/xampp/htdocs/web/about.html",
+		"/C/Users/deu301997/workspace/LGOE_jsp/WebContent/index.jsp",
+		"/C/Users/deu301997/Desktop/Website/ldvg.de.html",
+		"/C/Users/deu301997/Desktop/Website/Neues Textdokument.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".head1",
+			"1.jpg",
+			"1.png",
+			"simplefilter",
+			"head",
+			"h2",
+			"con-icons",
+			"footer-right",
+			"typo.html",
+			"gallery.html",
+			"index.html"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Header_Navi.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5962,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								5962
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "calendar.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								74,
+								74
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "timetable.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 121,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								73
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								640,
+								628
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "gallery.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 30.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "Footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 968,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "typo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								212,
+								253
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "about.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6281,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								339,
+								339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "contact.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "css/bootstrap.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 141622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								26024,
+								26024
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 23340.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 41335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 345.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "css/swipebox.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "css/index.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1835,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								933,
+								933
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "News.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6923,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								317,
+								316
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "web.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
